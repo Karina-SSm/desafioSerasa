@@ -78,7 +78,7 @@ public class PessoaServiceTest {
         pessoa = new Pessoa();
         pessoa.setNome("Karina Souza");
         pessoa.setIdade(25);
-        pessoa.setTelefone("11988384755");
+        pessoa.setTelefone("11960419955");
         pessoa.setCidade("São Paulo");
         pessoa.setEstado("SP");
         pessoa.setScore(900);
