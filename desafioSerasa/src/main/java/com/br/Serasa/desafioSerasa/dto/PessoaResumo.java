@@ -4,7 +4,7 @@ import com.br.Serasa.desafioSerasa.model.ScoreDescricao;
 
 public class PessoaResumo {
 	
-	 private String nome;
+	    private String nome;
 	    private String telefone;
 	    private Integer idade;
 	    private ScoreDescricao scoreDescricao;
