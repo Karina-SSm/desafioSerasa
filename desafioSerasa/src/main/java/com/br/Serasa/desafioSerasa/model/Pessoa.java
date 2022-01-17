@@ -2,10 +2,14 @@ package com.br.Serasa.desafioSerasa.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Transient;
+
 
 @Entity
 @Table(name = "pessoa")
@@ -33,6 +37,10 @@ public class Pessoa {
 
 	    @Column(name = "score", nullable = false)
 	    private Integer score;
+	    
+	    @Transient
+	    @Enumerated(EnumType.STRING)
+	    private ScoreDescricao scoreDescricao;
 	    
 	    public Integer getId() {
 			return id;
@@ -90,4 +98,7 @@ public class Pessoa {
 			this.score = score;
 
        }
+		public ScoreDescricao getScoreDescricao() {
+			return getScoreDescricao();
+		}
 }
