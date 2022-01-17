@@ -19,7 +19,6 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import com.br.Serasa.desafioSerasa.util.ResourceUtil;
 
-
 @RunWith(SpringRunner.class)
 @TestPropertySource("/application-test.properties")
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
