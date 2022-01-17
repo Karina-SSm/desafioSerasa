@@ -1,5 +1,6 @@
 package com.br.Serasa.desafioSerasa.dto;
 
+import com.br.Serasa.desafioSerasa.model.Pessoa;
 
 public class PessoaDTO {
 
@@ -52,5 +53,7 @@ public class PessoaDTO {
 	public void setScore(Integer score) {
 		this.score = score;
 	}
+
+	
 
 }
