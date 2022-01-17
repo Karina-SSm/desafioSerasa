@@ -11,6 +11,8 @@ import javax.persistence.Table;
 import javax.persistence.Transient;
 
 
+
+
 @Entity
 @Table(name = "pessoa")
 public class Pessoa {
@@ -101,4 +103,9 @@ public class Pessoa {
 		public ScoreDescricao getScoreDescricao() {
 			return getScoreDescricao();
 		}
+
+		public void setScoreDescricao(ScoreDescricao scoreDescricao) {
+			this.scoreDescricao = scoreDescricao;
+		}
+
 }
