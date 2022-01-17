@@ -4,16 +4,17 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import com.br.Serasa.desafioSerasa.dto.PessoaResumoDTO;
 import com.br.Serasa.desafioSerasa.model.Pessoa;
 
 @Component
-public class PessoaResumo {
+public class PessoaResumoDTOConverter {
 	
 	   @Autowired
 	    private ModelMapper mapper;
 
-	    public PessoaResumo to(Pessoa pessoa) {
-	        return mapper.map(pessoa, PessoaResumo.class);
+	    public PessoaResumoDTO to(Pessoa pessoa) {
+	        return mapper.map(pessoa, PessoaResumoDTO.class);
 	    }
 
 }

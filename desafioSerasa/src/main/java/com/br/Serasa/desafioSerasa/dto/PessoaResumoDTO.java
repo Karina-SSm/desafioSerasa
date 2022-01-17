@@ -2,7 +2,7 @@ package com.br.Serasa.desafioSerasa.dto;
 
 import com.br.Serasa.desafioSerasa.model.ScoreDescricao;
 
-public class PessoaResumo {
+public class PessoaResumoDTO {
 	
 	    private String nome;
 	    private String telefone;

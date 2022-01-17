@@ -1,6 +1,6 @@
 package com.br.Serasa.desafioSerasa.dto;
 
-import com.br.Serasa.desafioSerasa.model.Pessoa;
+
 
 public class PessoaDTO {
 
@@ -10,7 +10,8 @@ public class PessoaDTO {
     private Integer idade;
     private String cidade;
     private String estado;
-    private Integer score;
+    private Integer score; 
+    
 	public Integer getId() {
 		return id;
 	}

@@ -7,10 +7,11 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import com.br.Serasa.desafioSerasa.dto.DadosPessoasDTO;
 import com.br.Serasa.desafioSerasa.model.Pessoa;
 
 @Component
-public class DadosPessoasDTO {
+public class DadosPessoasDTOConverter {
 
 	
 	    @Autowired
